@@ -1,0 +1,29 @@
+{
+    "name": "sahassar/dragsort",
+    "description": "Extension to add drag and drop sorting to bolt overview pages.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": "^3.0.0"
+    },
+    "keywords": [
+        "sorting",
+        "drag",
+        "drag-and-drop",
+        "overview"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Svante Richter",
+            "email": "svante.richter@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SahAssar\\DragSort\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "SahAssar\\DragSort\\DragSortExtension"
+    }
+}
