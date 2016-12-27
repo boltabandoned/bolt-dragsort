@@ -1,0 +1,29 @@
+{
+    "name": "boltabandoned/dragsort",
+    "description": "Extension to add drag and drop sorting to bolt overview pages.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": "^3.0.0"
+    },
+    "keywords": [
+        "sorting",
+        "drag",
+        "drag-and-drop",
+        "overview"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alan Smithee",
+            "email": "alan.smithee@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "boltabandoned\\DragSort\\": "src"
+        }
+    },
+    "extra": {
+        "bolt-class": "boltabandoned\\DragSort\\DragSortExtension"
+    }
+}
