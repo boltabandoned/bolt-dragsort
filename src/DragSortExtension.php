@@ -1,6 +1,6 @@
 <?php
 
-namespace SahAssar\DragSort;
+namespace Bolt\Extension\SahAssar\DragSort;
 
 use Silex\Application;
 use Bolt\Extension\SimpleExtension;
