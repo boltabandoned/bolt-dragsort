@@ -1,6 +1,6 @@
 <?php
 
-namespace boltabandoned\DragSort;
+namespace Bolt\Extension\boltabandoned\DragSort;
 
 use Silex\Application;
 use Bolt\Extension\SimpleExtension;
