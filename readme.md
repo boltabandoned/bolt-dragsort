@@ -15,7 +15,8 @@ pages:
     dragsort: true
     fields:
         sortorder:
-            type: hidden
+            type: integer
+            group: meta
         title:
             type: text
             class: large
