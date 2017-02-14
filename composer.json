@@ -1,5 +1,5 @@
 {
-    "name": "boltabandoned/DragSort",
+    "name": "boltabandoned/dragsort",
     "description": "Extension to add drag and drop sorting to bolt overview pages.",
     "type": "bolt-extension",
     "require": {
@@ -19,6 +19,7 @@
         }
     },
     "extra": {
+        "bolt-assets": "web",
         "bolt-class": "Bolt\\Extension\\boltabandoned\\DragSort\\DragSortExtension"
     }
 }
