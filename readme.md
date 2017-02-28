@@ -19,6 +19,7 @@ pages:
         sortorder:
             type: integer
             group: meta
+            default: 0
         title:
             type: text
             class: large
