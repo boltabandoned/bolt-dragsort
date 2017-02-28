@@ -4,7 +4,7 @@ This extension adds drag-and-drop sorting to bolts overview pages.
 
 **Not compatible with contenttypes that have taxonomies**
 
-To activate it for a contenttype you need to add a hidden/integer field called `sortorder` to your fields for the contenttype, and add `sort: sortorder`, `listing_sort: sortorder` and `dragsort: true` to the top-level settings block in the contenttype.
+To activate it for a contenttype you need to add a integer field called `sortorder` to your fields for the contenttype, and add `sort: sortorder`, `listing_sort: sortorder` and `dragsort: true` to the top-level settings block in the contenttype.
 
 For the default pages contenttype it will look like this:
 
