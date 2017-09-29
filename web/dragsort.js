@@ -50,7 +50,7 @@
             });
             ajax({
                 method: 'POST',
-                url: Bolt.conf.get('paths.bolt') + 'dragsort',
+                url: document.querySelector('[data-admin-path]').dataset.adminPath + '/dragsort',
                 data: {sorting: JSON.stringify(sorting), contenttype: document.querySelector('[data-contenttype]').dataset.contenttype}
             }, function(response, err){
                 if(err){
