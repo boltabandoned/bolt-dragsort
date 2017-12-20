@@ -20,7 +20,7 @@
     {% endset %}
 
     {% if not async %}
-        <div class="buic-listing {% if contenttype.dragsort is defined %}dragsort{% endif %}" data-showing-from="{{ pager.showingFrom }}" data-bolt-widget="buicListing" data-contenttype="{{ contenttype.slug }}" data-contenttype-name="{{ contenttype.singular_name }}" data-bolt_csrf_token="{{ token() }}" data-admin-path="{{ path('dashboard') }}">
+	<div class="buic-listing {% if contenttype.dragsort is defined %}dragsort{% endif %}" data-showing-from="{% if pager is defined %}{{ pager.showingFrom }}{% endif %}" data-bolt-widget="buicListing" data-contenttype="{{ contenttype.slug }}" data-contenttype-name="{{ contenttype.singular_name }}" data-bolt_csrf_token="{{ token() }}" data-admin-path="{{ path('dashboard') }}">
     {% endif %}
         <table class="{{ extra_classes }} dashboardlisting listing">
             {% for content in multiplecontent %}
