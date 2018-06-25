@@ -25,7 +25,7 @@
 
 {% set modifiable = permissions.create or permissions.edit or permissions.delete or permissions.publish or permissions.depublish %}
 
-{% if content.taxonomy.grouped|default()) %}
+{% if content.taxonomy.grouped|default() %}
     {% set orderbycontenttype = content.taxonomy.grouped|keys|first %}
     {% set showorder = app.config.get('taxonomy')[orderbycontenttype].has_sortorder %}
 {% elseif content.contenttype.dragsort|default() %}
