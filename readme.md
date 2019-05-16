@@ -1,3 +1,7 @@
+### Looking or a maintainer
+
+This repo needs a maintainer, if you want to take it over open an issue.
+
 # DragSort extension for bolt
 
 This extension adds drag-and-drop sorting to bolts overview pages.
